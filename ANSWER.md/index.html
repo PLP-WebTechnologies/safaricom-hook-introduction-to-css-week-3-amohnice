@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Basics</title>
+    <style>
+        /* Internal CSS */
+        h1, h2 {
+            font-family: Arial, sans-serif;
+        }
+
+        .highlight-section {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        #unique-element {
+            border: 2px solid red;
+            padding: 10px;
+        }
+
+        /* Basic Styling Properties */
+        p {
+            font-family: 'Georgia', serif;
+            font-size: 16px;
+            color: darkslategray;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        /* Card Component Styling */
+        .card {
+            background-color: lightyellow;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card p {
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="css/styles.css"> <!-- External CSS link -->
+</head>
+<body>
+    <h1>CSS Basics Example</h1>
+    <p>This is a paragraph that demonstrates text styling.</p>
+
+    <!-- Using Class Selector -->
+    <div class="highlight-section">
+        <h2>This section has a background color using the class selector</h2>
+        <p>Notice how this section has a light blue background.</p>
+    </div>
+
+    <!-- Using ID Selector -->
+    <div id="unique-element">
+        <h2>This section has a border using the ID selector</h2>
+        <p>There is a red border around this section.</p>
+    </div>
+
+    <!-- Inline CSS Example -->
+    <h2 style="color: green;">This heading is styled using inline CSS</h2>
+
+    <!-- Card Component -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component. It has padding inside and margin around it.</p>
+    </div>
+
+    <a href="#" class="link">Click here to visit amos.com</a>
+
+</body>
+</html>

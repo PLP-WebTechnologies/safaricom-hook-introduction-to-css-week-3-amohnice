@@ -1,0 +1,15 @@
+/* External CSS */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Link Hover Effect */
+a.link {
+    color: blue;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
